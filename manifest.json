@@ -6,7 +6,10 @@
 
   "content_scripts": [
     {
-      "matches": ["http://www.reddit.com/"],
+      "matches": [
+        "http://www.reddit.com/",
+        "http://www.reddit.com/r/*"
+      ],
       "js": ["jquery-1.8.1.min.js", "reddit-reality-check.js"]
     }
   ]
